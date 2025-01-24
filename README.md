@@ -14,6 +14,7 @@ Features:
 
 ----------
 Collision Handling:
+
 Each bucket in the hash table is represented by a std::list of key-value pairs (std::pair<int, std::string>).
 When multiple keys map to the same bucket, they are stored in the list for that bucket.
 During operations like insertion, search, and deletion, the list in the corresponding bucket is traversed to locate the key.
